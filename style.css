@@ -119,8 +119,9 @@ body {
 .lab-list {
     background-color: transparent;
     color: white;
+    width: 35px;
     fill: white;
-    height: 25px;
+    height: 35px;
     border: white solid 1px;
     padding: 2px 5px;
 
