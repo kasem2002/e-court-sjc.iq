@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.main {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    border-bottom: 1px solid #bf9e66;
+}
+
+.head__logo {
+    width: 20px;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.head__logo img {
+    width: 100%;
+    height: auto;
+}
+
+.head p {
+    font-size: 12px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.head button {
+    background-color: transparent;
+    border: none;
+    color: #005ea2;
+    text-decoration: underline;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.head button i {
+    width: 25px;
+    fill: #005ea2;
+}
+
+.headS {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+.headS img {
+
+    width: 40%;
+    margin: 30px 0px;
+    margin-right: 10px;
+}
+
+.lable {
+    height: 40px;
+    width: 96%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bf9e66;
+    direction: rtl;
+
+}
+
+.lable span {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    direction: rtl;
+
+}
+
+.lable span button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: white;
+    fill: white;
+    height: 20px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.lable span button svg {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lab-list {
+    background-color: transparent;
+    color: white;
+    fill: white;
+    height: 25px;
+    border: white solid 1px;
+    padding: 2px 5px;
+
+    border-radius: 3px;
+}
+
+.labs {
+    width: 94%;
+    padding: 3%;
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.labs h3 {
+    font-size: 24px;
+    font-style: normal;
+}
+
+.labs span {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.labs span button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.labs span button i {
+    margin-left: 10px;
+}
+
+.labf {
+    width: 94%;
+    display: flex;
+    direction: rtl;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(232 235 237);
+}
+
+.labf h4 {
+    font-size: 18px;
+    margin: 0px 10px;
+    font-weight: normal;
+
+}
+
+.ser {
+    width: 94%;
+    margin-top: 50px;
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #bf9e66;
+}
+
+.ser h4 {
+    font-size: 24px;
+    margin: 0px 10px;
+    font-weight: normal;
+    color: white;
+}
+
+.ser button {
+    cursor: pointer;
+    margin-left: 20px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: #bf9e66;
+    font-size: 20px;
+}
+
+.info {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.info h3 {
+    border-bottom: black dashed 1px;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info span {
+    width: 80%;
+    display: flex;
+    direction: rtl;
+}
+
+.info span input[type="radio"] {
+    margin: 0px 10px;
+}
+
+.sel {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    direction: rtl;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.sel button {
+    cursor: pointer;
+    background: #bf9e66;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+
+.camc {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    align-items: start;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-top: 10px;
+
+}
+.camc p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.camc select {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 5px;
+    direction: rtl;
+}
+.cambox{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    align-items: start;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.cambox div {
+    position: relative;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #bf9e66 dashed 2px;
+    border-radius: 10px;
+    height: 350px;
+    overflow: hidden;
+    background-image: url("https://e-court.sjc.iq/assets/img/OffCamera.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 150px;
+}
+.cambox div video {
+    position: absolute;
+    width: 70%;
+    height: auto;
+}
+.pdf-v{
+    position: relative;
+    width: 90%;    
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #bf9e66 dashed 2px;
+    height: 350px;
+    overflow: hidden;
+}
+.pdf-v iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.foot{
+    width: 100%;
+    background-color: rgb(35 41 49);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+.foot img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 0px;
+    border-radius: 50px;
+}
+.foot-links{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.links{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: #ccc solid 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+.links span{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    direction: ltr;
+}

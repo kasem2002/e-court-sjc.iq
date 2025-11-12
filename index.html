@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./logo-sjc-ar.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بوابة القضاء العراقي الالكترونية</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="head">
+        <span class="head__logo">
+          <img
+            src="https://e-court.sjc.iq/assets/img/Iraq_flag.png"
+            alt=""
+            srcset=""
+          />
+        </span>
+        <p>موقع رسمي تابع لمجلس القضاء الاعلى العراقي</p>
+        <button class="btn sjc-banner__button" type="button">
+          <span>هنا كيف تعرف</span
+          ><i
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="Layer_1"
+              data-name="Layer 1"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m12,16.074c-.4,0-.777-.156-1.061-.439l-5.281-5.281.707-.707,5.281,5.281c.189.189.518.189.707,0l5.281-5.281.707.707-5.281,5.281c-.283.283-.66.439-1.061.439Z"
+              />
+            </svg>
+          </i>
+        </button>
+      </div>
+      <div class="headS">
+        <img src="https://e-court.sjc.iq/assets/img/logo-sjc-ar.png" alt="" />
+      </div>
+      <div class="lable">
+        <span
+          ><button>تسجيل دخول</button>
+          <button>
+            |
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="Layer_1"
+              data-name="Layer 1"
+              viewBox="0 0 24 24"
+              width="100%"
+              height="100%"
+            >
+              <path
+                d="m12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm0,22c-5.514,0-10-4.486-10-10,0-1.494.33-2.912.92-4.187l1.666,1.751c.265.278.632.436,1.016.436h1.949c.288,0,.564.114.768.318l.373.373c.198.198.309.466.309.745v.963c0,.385.153.753.425,1.025l1.19,1.19c.247.247.386.582.386.931v2.365c0,.602.488,1.09,1.09,1.09h.213c.425,0,.811-.247.989-.633l2.241-4.856c.267-.578.062-1.263-.477-1.601l-2.562-1.601c-.323-.202-.696-.309-1.077-.309h-1.431c-.311,0-.61-.124-.83-.344l-.592-.592c-.312-.312-.312-.817,0-1.128l.529-.529c.243-.243.614-.303.921-.149l.88.44c.361.181.798.11,1.084-.176l.003-.003c.305-.305.363-.778.141-1.147l-.837-1.396c-.175-.292-.171-.654.014-.94.296-.457.78-1.202,1.316-2.016,3.272.2,6.125,1.98,7.801,4.586l-1.59.917c-.49.282-.733.855-.595,1.403l.627,2.507c.09.36.333.662.665.827l2.373,1.178c-.699,4.835-4.871,8.562-9.896,8.562Z"
+              />
+            </svg>
+            lang
+          </button>
+        </span>
+        <button class="lab-list">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="Outline"
+            viewBox="0 0 24 24"
+            width="100%"
+            height="100%"
+          >
+            <rect y="11" width="24" height="2" rx="1" />
+            <rect y="4" width="24" height="2" rx="1" />
+            <rect y="18" width="24" height="2" rx="1" />
+          </svg>
+        </button>
+      </div>
+      <div class="labs">
+        <h3>قسم الخدمات الالكترونية</h3>
+        <span>
+          <i class="fa fa-print"></i>
+          <button><i class="fa fa-share-alt"></i>شارك</button>
+        </span>
+      </div>
+      <div class="labf">
+        <h4>الرئيسية</h4>
+        <h4 style="color: #bf9e66">></h4>
+        <h4 style="color: #bf9e66">صحة صدور الوثائق</h4>
+      </div>
+      <div class="ser">
+        <h4>الخدمات الالكترونية</h4>
+        <button>+</button>
+      </div>
+      <div class="info">
+        <h3>قراءة رمز QR عن طريق الكاميرا</h3>
+        <span
+          ><input type="radio" name="" id="" />
+          <p>أضغط هنا للتحقق من الوثيقة بأستخدام رمز QR.</p>
+        </span>
+        <span
+          ><input type="radio" name="" id="" />
+          <p>أضغط هنا للتحقق من الوثيقة يدويا.</p>
+        </span>
+      </div>
+      <div class="sel">
+        <button id="startCam">قراءة رمز QR</button>
+        <button id="stopCam" style="background-color: #8d1737">
+          أغلاق الكاميرا
+        </button>
+      </div>
+      <div class="camc">
+        <p>أختر الكاميرا</p>
+        <select name="cam" id="">
+          <option value="">Video device 1</option>
+        </select>
+      </div>
+      <div class="cambox">
+        <div><video id="video" autoplay playsinline></video></div>
+      </div>
+      <div class="info">
+        <h3>النسخة الالكترونية للمستند</h3>
+        <span>
+          <p>
+            الصورة الظاهرة في الاسفل هي نسخة الكترونية للمستند الاصلي (لاخذ نسخة
+            اضغط الزر في الاسفل)
+          </p>
+        </span>
+      </div>
+      <div class="sel">
+        <button style="width: 100%">تحميل نسخة</button>
+      </div>
+      <div class="pdf-v">
+        <iframe
+          src="file:///C:/Users/km559/OneDrive/Desktop/download.pdf"
+        ></iframe>
+      </div>
+
+      <div class="foot">
+        <img src="./logo-sjc-ar.png" alt="" srcset="" />
+        <h3>مجلس القضاء الاعلى</h3>
+        <h3>بوابة القضاء العراقي الالكترونية</h3>
+        <br />
+        <div class="foot-links">
+          <span> <i class="fa fa-home"></i>الرئيسية </span>
+          <span> الخدمات الالكترونية </span>
+          <span>
+            <i class="fa fa-phone"></i>
+            اتصل بنا
+          </span>
+        </div>
+        <div class="links">
+          <span>
+            <i class="fa fa-android"></i>
+            <i class="fa fa-apple"></i>
+            <p>تطبيق متابعة القضايا</p>
+          </span>
+        </div>
+        <h3 style="margin-top: 40px;">جميع الحقوق محفوظة 2025</h3>
+        <h3>مجلس القضاء الاعلى - مركز التكنولوجيا</h3>
+        <br>
+        <br>
+        <br><br>
+      </div>
+    </div>
+    <script>
+      const startBtn = document.getElementById("startCam");
+      const stopBtn = document.getElementById("stopCam");
+      const video = document.getElementById("video");
+      let stream;
+
+      // ✅ Start camera (any available)
+      async function startCamera() {
+        try {
+          if (stream) stopCamera();
+
+          // Just ask for any available video input
+          stream = await navigator.mediaDevices.getUserMedia({ video: true });
+          video.srcObject = stream;
+        } catch (error) {
+          alert("حدث خطأ أثناء تشغيل الكاميرا: " + error.message);
+        }
+      }
+
+      // ✅ Stop camera
+      function stopCamera() {
+        if (stream) {
+          stream.getTracks().forEach((track) => track.stop());
+          video.srcObject = null;
+          stream = null;
+        }
+      }
+      startBtn.addEventListener("click", startCamera);
+      stopBtn.addEventListener("click", stopCamera);
+    </script>
+  </body>
+</html>
